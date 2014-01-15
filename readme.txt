@@ -16,11 +16,10 @@ Simply install the plugin and insert [wpterapeut] on any page of your WordPress 
 
 == Installation ==
 
-e.g.
+Simply activate the plugin by installing it through the WordPress Plugin search in your WordPress installation.
+After activation there will be a new menu for "Terapeut Booking."
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+In the new menu you can configure your settings. 
 
 == Frequently Asked Questions ==
 
