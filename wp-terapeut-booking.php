@@ -33,13 +33,17 @@ function terapeutbooking_func( $atts ) {
     $clicktext = get_option('wpterapeut_clicktext');
     $booklink = get_option('wpterapeut_booklink');
     
-    if ($atts['link'] != ""){
-	$booklink = $atts['link'];
-    }
+	if(isset($atts['link'])){
+		if ($atts['link'] != ""){
+			$booklink = $atts['link'];
+		}
+	}
     
-    if ($atts['text'] != ""){
-	$clicktext = $atts['text'];
-    }
+	if(isset($atts['text'])){
+		if ($atts['text'] != ""){
+			$clicktext = $atts['text'];
+		}
+	}
     
     $bookscript = '<script src="https://system.terapeutbooking.dk/online_book/onlinebook.js?url=https%3A%2F%2Fsystem.terapeutbooking.dk&affix=/book/' . rawurlencode($booklink) . '&txt=' . rawurlencode($clicktext) . '" id="terapeutbookingonlinebooking" ></script>';
     
