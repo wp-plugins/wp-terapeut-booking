@@ -31,3 +31,6 @@ Yes - this proces is described in Terapeut Booking. Login on system.terapeutbook
 
 = 1.0 =
 * First version of the plugin
+
+= 1.1 =
+* Bug fixes
