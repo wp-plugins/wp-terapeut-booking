@@ -30,6 +30,8 @@ Author URI: http://www.terapeutbooking.dk
 
 function terapeutbooking_func( $atts ) {
     
+	//Plugin
+	
     $clicktext = get_option('wpterapeut_clicktext');
     $booklink = get_option('wpterapeut_booklink');
     
