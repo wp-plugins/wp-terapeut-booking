@@ -44,3 +44,6 @@ Yes - this proces is described in Terapeut Booking. Login on system.terapeutbook
 = 3.0 =
 * Newest release
 
+= 3.1 =
+* Newest release
+
