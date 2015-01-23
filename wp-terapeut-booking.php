@@ -8,7 +8,7 @@ Plugin Name: WP Terapeut Booking
 Plugin URI: http://wordpress.org/plugins/wp-terapeut-booking/
 Description: Dette plugin gør det muligt at indsætte [wpterapeut] et vilkårligt sted på din hjemmeside, hvilket gør at der indsættes et link til online booking.
 Author: Terapeut Booking
-Version: 1.0
+Version: 3.0
 Author URI: http://www.terapeutbooking.dk
 */
 
